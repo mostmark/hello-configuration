@@ -1,0 +1,8 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: my-config-data
+  namespace: demo
+data:
+  environment: DEMO
+  name: Pelle

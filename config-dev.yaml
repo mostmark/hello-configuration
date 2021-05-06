@@ -1,0 +1,8 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: my-config-data
+  namespace: dev
+data:
+  environment: DEMO
+  name: Kalle
